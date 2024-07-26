@@ -2,7 +2,6 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import '../App.css';
 // Import the image
-import pcImage from '../assets/pc.png';
 
 function Introduction() {
 
@@ -33,7 +32,7 @@ function Introduction() {
       </div>
       <div className="right">
         {/* Use the imported image */}
-        <img src={pcImage} alt="PC" />
+        <img src="assets/pc.png" alt="PC" />
       </div>
     </div>
   );
