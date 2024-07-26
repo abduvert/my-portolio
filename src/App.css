@@ -1,38 +1,269 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #D6FFEE;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navv {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 2em;
+  padding: 2em;
+  background: linear-gradient(to right, #05A461, #001606);
+  height: 60px; 
+  width: 95%;
+  border-radius: 10px;
+  color: white;
+  position: static;
+  z-index: 1;
+}
+
+.navv ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0; 
+  padding: 0; 
+}
+
+.navitems {
+  padding-right: 2em;
+}
+
+.navitems a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navitems a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  margin-left: 2em;
+  height: 60vh;
+}
+
+.roles {
+  color: #05A461;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color:#D6FFEE;
+  color: black;
+}
+
+.btn:hover{
+  background-color: #001606;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.left{
+  float: left;
+  width: 60%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right{
+  float: right;
+  width: 40%;
+  display: flex;
+  
+}
+
+
+.aboutMe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2em;
+  width: 90%;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4em;
+}
+
+
+.footeritems{
+  display: inline;
+  margin-right: 2em;
+  list-style-type: none;
+}
+
+.footeritems a{
+  color:#05A461;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+
+
+
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cardContain {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid #000000;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 250px;
+  width: 95%;
+  transition: box-shadow 0.3s ease;
+}
+
+.cardContain:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4), 0px 12px 24px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 30%;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  float: right;
+  width: 70%;
+}
+.cardContain img {
+  width: 80%;
+  height: 85%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3), 0px 8px 16px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.cardContain img:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4), 0px 12px 24px rgba(0, 0, 0, 0.3);
+}
+.cardContain h2 {
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.cardContain p {
+  margin: 10px 0;
+  text-align: left;
+  font-size: 14px;
+}
+
+.cardContain a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #05A461;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cardContain a:hover {
+  text-decoration: underline;
+}
+
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2;
+  width: 98%;
+  padding: 3em;
+}
+
+.contactDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+}
+
+.contactleft{
+  float: left;
+  width: 40%;
+}
+
+.contactleft h1{
+  font-weight: bold;
+}
+.contactleft a{
+  color: #05A461;
+}
+
+.contactright{
+  text-align: right;
+  float: right;
+  width: 60%;
 }
