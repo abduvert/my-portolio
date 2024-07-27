@@ -5,7 +5,8 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Contact from './components/Contact';
-import { SpeedInsights } from "@vercel/speed-insights/react"
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import Skills from './components/Skills';
 
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects/>} />
-          <Route path="/contact" element={<Contact></Contact>} />
-          <SpeedInsights />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/speed-insights" element={<SpeedInsights />} />
         </Routes>
         <Footer />
       </div>
