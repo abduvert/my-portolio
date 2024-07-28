@@ -17,7 +17,7 @@ body {
   border-radius: 10px;
   color: white;
   position: static;
-  z-index: 1;
+  z-index: 10000;
 }
 
 .navv ul {
@@ -168,6 +168,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2em;
+  z-index: 1;
 }
 
 .projects {
@@ -453,6 +454,7 @@ body {
   
   .navv ul.show {
     display: flex;
+    z-index: 1000;
   }
 
   .burger {
