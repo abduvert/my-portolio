@@ -23,7 +23,7 @@ const projects = [
     link: 'https://github.com/IbraheemHaseeb7/buzzats'
   },
   {
-    name: 'ClassInsights',
+    name: 'Class Insights',
     image: 'assets/classinsights.PNG',
     description: 'A powerful and intuitive school management app built with Flutter, designed to streamline the educational process for administrators, teachers, students, and parents. Ensures efficient management and communication within the school community.',
     link: 'https://github.com/IMUSARAZA/ClassInsight'

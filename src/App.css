@@ -179,6 +179,7 @@ body {
 
 .burger {
   display: none;
+  
 }
 
 .burger div {
@@ -426,12 +427,9 @@ body {
 }
 
 
-
-
-
 @media (max-width: 500px) {
   body {
-    padding: 1em;
+    padding: 0.6em;
   }
 
   .navv {
@@ -460,11 +458,12 @@ body {
   .burger {
     display: block;
     cursor: pointer;
+    flex-direction: column;
   }
 
   .burger div{
-    width: 20px; 
-    height: 2px; 
+    width: 15px; 
+    height: 1px; 
   }
 
   .navitems a {
@@ -493,6 +492,7 @@ body {
   .cardContain {
     flex-direction: column;
     align-items: center;
+    margin: 0;
     height: auto;
     text-align: center;
   }
@@ -505,25 +505,43 @@ body {
     width: 100%;
   }
 
+  .info{
+    font-size: 8px;
+    margin: 0.6em;
+  }
+
+  .info h2{
+    font-size: 12px;
+  }
+  .info p{
+    font-size: 8px;
+  }
+
   .contactDiv {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
+    height: 100vh;
   }
 
   .contactleft{
     width: 80%;
     text-align: center;
+    margin-top: 1em;
   }
   .contactleft h1{
-    font-size: 20px;
+    font-size: 15px;
+  }
+
+  .contactleft p{
+    font-size: 10px;
   }
 
 
   .contactright img{
     text-align: center;
-    height: 200px;
-    width: 200px;
+    height: 120px;
+    width: 150px;
 
   }
 

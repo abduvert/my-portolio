@@ -9,6 +9,10 @@ function Navbar() {
     setShowMenu(!showMenu);
   };
 
+  const closeMenu = () => {
+    setShowMenu(false);
+  };
+
   return (
     <div className='navv'>
       <div className="burger" onClick={toggleMenu}>
@@ -17,10 +21,10 @@ function Navbar() {
         <div></div>
       </div>
       <ul className={showMenu ? 'show' : ''}>
-        <li className="navitems"><Link to="/">Home</Link></li>
-        <li className="navitems"><Link to="/skills">Skills</Link></li>
-        <li className="navitems"><Link to="/projects">Experience</Link></li>
-        <li className="navitems"><Link to="/contact">Contact</Link></li>
+        <li className="navitems" onClick={closeMenu}><Link to="/">Home</Link></li>
+        <li className="navitems" onClick={closeMenu}><Link to="/skills">Skills</Link></li>
+        <li className="navitems" onClick={closeMenu}><Link to="/projects">Experience</Link></li>
+        <li className="navitems" onClick={closeMenu}><Link to="/contact">Contact</Link></li>
       </ul>
     </div>
   );
