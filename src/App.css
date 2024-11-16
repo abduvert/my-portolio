@@ -564,16 +564,28 @@ body {
     flex-direction: column;
     position: absolute;
     top: 60px;
-    left: 0;
-    width: 100%;
-    background: linear-gradient(to right, #05A461, #001606);
+    width: 90%;
+    background: linear-gradient(to right, #1fff5f, #05A461);
     padding: 1em;
-    border-radius: 0 0 10px 10px;
+    border-radius:10px;
   }
   
   .navv ul.show {
     display: flex;
     z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+  }
+
+  .navitems {
+    padding-right: 0em;
+  }
+
+  .navitems a {
+    font-size: 18px;
+    text-align: center;
+    transition: 0.3s;
   }
 
   .burger {
@@ -582,15 +594,14 @@ body {
     flex-direction: column;
   }
 
-  .burger div{
-    width: 15px; 
-    height: 1px; 
+  .burger div {
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 4px;
+    transition: 0.3s;
   }
 
-  .navitems a {
-    font-size: 18px;
-    padding: 10px;
-  }
 
   .main {
     flex-direction: column-reverse;
