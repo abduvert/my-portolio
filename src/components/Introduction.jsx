@@ -18,7 +18,7 @@ function Introduction() {
         <h3 className='roles'>
           <Typewriter
             options={{
-              strings: ['Flutter Developer', 'Aspiring ML Engineer'],
+              strings: ['Flutter Developer','Web Developer','UI/UX Designer'],
               autoStart: true,
               loop: true,
               delay: 50,

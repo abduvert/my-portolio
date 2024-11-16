@@ -1,6 +1,6 @@
 import '../App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faInstagram, faUpwork } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
@@ -14,6 +14,11 @@ function Footer() {
         <li className="footeritems">
             <a href="https://github.com/abduvert" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
+        </li>
+        <li className="footeritems">
+            <a href="https://www.upwork.com/freelancers/~015812e7531041a46c?mp_source=share" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faUpwork} size="2x" />
           </a>
         </li>
         <li className="footeritems">

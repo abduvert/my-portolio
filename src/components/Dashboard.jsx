@@ -2,11 +2,15 @@ import React from 'react';
 import Card from './card'; // Import the Card component
 
 const frontEnd = [
+  { name: 'Flutter', svg: 'assets/flutter.svg' }, 
   { name: 'HTML', svg: 'assets/html.svg' },
   { name: 'CSS', svg: 'assets/css.svg' },
   { name: 'Bootstrap', svg: 'assets/bootstrap.svg' },
   { name: 'JQuery', svg: 'assets/jquery.svg' },
-  { name: 'Flutter', svg: 'assets/flutter.svg' }, // Moved from Mobile App Development
+  { name: 'React', svg: '/logo192.png' },
+  { name: 'NextJS', svg: '/assets/nextjs.png' },
+
+
 ];
 
 const backEnd = [
@@ -39,6 +43,7 @@ const machineLearning = [
 
 const others = [
   { name: 'VSCODE', svg: 'assets/vscode.svg' },
+  { name: 'Figma', svg: 'assets/figma.png' },
   { name: 'Git', svg: 'assets/git.svg' },
   { name: 'Github', svg: 'assets/github.svg' },
   { name: 'Intelij', svg: 'assets/intellij.svg' },
