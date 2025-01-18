@@ -6,7 +6,7 @@ import '../App.css';
 function Introduction() {
 
   const handleDownload = () => {
-    window.open("/Resume_AbdullahSajjad.pdf", "_blank");
+    window.open("/AbdullahSajjad_CV.pdf", "_blank");
   };
 
 

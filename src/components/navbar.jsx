@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <div className='navv'>
+    <div className='navv glass-effect'>
       <div className="burger" onClick={toggleMenu}>
         <div></div>
         <div></div>
