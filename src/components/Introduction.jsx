@@ -6,7 +6,7 @@ import '../App.css';
 function Introduction() {
 
   const handleDownload = () => {
-    window.open("/AbdullahSajjad_CV.pdf", "_blank");
+    window.open("/AbdullahSajjad_2yrs_.pdf", "_blank");
   };
 
 
@@ -18,7 +18,7 @@ function Introduction() {
         <h3 className='roles'>
           <Typewriter
             options={{
-              strings: ['Flutter Developer','Web Developer','UI/UX Designer'],
+              strings: ['Full-Stack Flutter Developer','MERN Developer','UI/UX Designer'],
               autoStart: true,
               loop: true,
               delay: 50,

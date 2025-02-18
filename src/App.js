@@ -7,12 +7,14 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Contact from './components/Contact';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import Skills from './components/Skills';
+import CursorEffect from './components/CursorEffect';
 
 
 function App() {
   return (
     <Router>
       <div>
+        <CursorEffect></CursorEffect>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
