@@ -16,13 +16,19 @@ function App() {
       <div>
         <CursorEffect></CursorEffect>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/speed-insights" element={<SpeedInsights />} />
-        </Routes>
+        <div id="home">
+          <Home />
+        </div>
+        <div id="skills">
+          <Skills />
+        </div>
+        <div id="projects">
+          <Projects />
+        </div>
+        <div id="contact">
+          <Contact />
+        </div>
+        <SpeedInsights />
         <Footer />
       </div>
     </Router>

@@ -2,17 +2,27 @@ import '../App.css';
 
 function AboutHome() {
   return (
-    <div className='aboutMe'>
-        <h4>About me</h4>
+    <div className='aboutMe code-window'>
+      <div className="window-header">
+        <div className="window-dots">
+          <div className="window-dot dot-red"></div>
+          <div className="window-dot dot-yellow"></div>
+          <div className="window-dot dot-green"></div>
+        </div>
+        <span className="window-title">about_me.dart</span>
+      </div>
+      <div className="window-body">
         <p>
-        {/* <strong>Passionate Flutter Developer | Mobile App Enthusiast | Problem Solver</strong><br/> */}
+          <span className="code-comment">// Start of professional profile</span><br />
+          <span className="code-keyword">final</span> String mission = <span className="code-string">"Building intuitive, user-centric mobile apps."</span>;<br /><br />
 
-With over a year of hands-on experience in Flutter development, I specialize in building intuitive, user-centric mobile applications. From crafting responsive UIs to seamlessly integrating Firebase for real-time data, I focus on delivering performance-optimized solutions. My goal is to create mobile experiences that not only meet user needs but also exceed expectations by driving engagement and simplifying workflows.
+          <span className="code-keyword">void</span> <span className="code-func">introduceMyself</span>() &#123;<br />
+          &nbsp;&nbsp;With over a year of hands-on experience in Flutter development, I specialize in crafting responsive UIs and integrating Firebase for real-time data.<br /><br />
 
-Skilled in app architecture, state management, and incorporating essential features such as in-app payments and offline capabilities, I've developed applications across a range of industries. Whether it's building custom functionality or refining user interfaces, I ensure each project is tailored for maximum impact.
-
-Beyond coding, I am committed to continuously learning and keeping up with emerging technologies to enhance the apps I build. My ability to collaborate effectively with cross-functional teams and clients ensures the delivery of projects on time and to specification.
+          &nbsp;&nbsp;My goal? To create mobile experiences that exceed expectations by driving engagement and simplifying workflows. <span className="cursor-blink"></span><br />
+          &#125;
         </p>
+      </div>
     </div>
   );
 }
