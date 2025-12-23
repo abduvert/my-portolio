@@ -21,10 +21,10 @@ function Navbar() {
         <div></div>
       </div>
       <ul className={showMenu ? 'show' : ''}>
-        <li className="navitems" onClick={closeMenu}><Link to="/">Home</Link></li>
-        <li className="navitems" onClick={closeMenu}><Link to="/skills">Skills</Link></li>
-        <li className="navitems" onClick={closeMenu}><Link to="/projects">Experience</Link></li>
-        <li className="navitems" onClick={closeMenu}><Link to="/contact">Contact</Link></li>
+        <li className="navitems" onClick={closeMenu}><a href="#home">Home</a></li>
+        <li className="navitems" onClick={closeMenu}><a href="#skills">Skills</a></li>
+        <li className="navitems" onClick={closeMenu}><a href="#projects">Experience</a></li>
+        <li className="navitems" onClick={closeMenu}><a href="#contact">Contact</a></li>
       </ul>
     </div>
   );

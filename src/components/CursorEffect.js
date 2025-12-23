@@ -64,7 +64,7 @@ const CursorEffect = () => {
     }
 
     function getTechColor() {
-      const colors = ["#1F2937", "#4B5563", "#9CA3AF"]; // Muted tech-style colors
+      const colors = ["#1fff5f", "#ffffff", "#9CA3AF"]; // Neon green, white, and gray
       return colors[Math.floor(Math.random() * colors.length)];
     }
 
